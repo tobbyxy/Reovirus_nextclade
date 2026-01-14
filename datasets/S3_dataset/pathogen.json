@@ -1,0 +1,53 @@
+{
+  "$schema": "https://raw.githubusercontent.com/nextstrain/nextclade/refs/heads/release/packages/nextclade-schemas/input-pathogen-json.schema.json",
+  "schemaVersion": "3.0.0",
+  "files": {
+    "reference": "S3_sequence.fasta",
+    "pathogenJson": "pathogen.json",
+    "genomeAnnotation": "S3_sequence.gff3",
+    "examples": "sequences.fasta",
+    "readme": "README.md",
+    "changelog": "CHANGELOG.md",
+    "treeJson": "tree.json"
+  },
+  "alignmentParams": {
+    "penaltyGapOpen": 8,
+    "penaltyGapOpenInFrame": 12,
+    "penaltyGapOpenOutOfFrame": 14,
+    "gapAlignmentSide": "left",
+    "minSeedCover": 0.01,
+    "minLength": 400
+  },
+  "attributes": {
+    "name": "ARV S3",
+    "reference name": "Reference sequence",
+    "reference accession": "PV406757.1 Avian orthoreovirus isolate turkey/Utah/2023078696/tendon/2023 segment S3 sigma B protein gene, complete cds"
+  },
+  "qc": {
+    "missingData": {
+      "enabled": true,
+      "missingDataThreshold": 2000,
+      "scoreBias": 500,
+      "scoreWeight": 50
+    },
+    "snpClusters": {
+      "enabled": true,
+      "windowSize": 100,
+      "clusterCutOff": 6,
+      "scoreWeight": 50
+    },
+    "mixedSites": {
+      "enabled": true,
+      "mixedSitesThreshold": 15,
+      "scoreWeight": 80
+    },
+    "frameShifts": {
+      "enabled": true,
+      "scoreWeight": 20
+    },
+    "stopCodons": {
+      "enabled": true,
+      "scoreWeight": 50
+    }
+  }
+}

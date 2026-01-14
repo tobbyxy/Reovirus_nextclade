@@ -1,0 +1,6 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+PV406210.1	Genbank	region	1	3858	.	+	.	ID=PV406210.1:1..3858;Dbxref=taxon:38170;Name=L3;collected-by=Iowa State University Veterinary Diagnostic Laboratory;collection-date=2023-08-21;country=USA: Utah;gbkey=Src;genome=genomic;isolate=turkey/Utah/2023078696/tendon/2023;isolation-source=tendon;mol_type=genomic RNA;nat-host=turkey;segment=L3
+PV406210.1	Genbank	CDS	1	3858	.	+	0	ID=cds-XXQ48359.1;Dbxref=NCBI_GP:XXQ48359.1;Name=XXQ48359.1;gbkey=CDS;product=lambda C protein;protein_id=XXQ48359.1
+

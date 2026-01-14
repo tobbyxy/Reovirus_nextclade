@@ -1,0 +1,8 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+PV406567.1	Genbank	region	1	1563	.	+	.	ID=PV406567.1:1..1563;Dbxref=taxon:38170;Name=S1;collected-by=Iowa State University Veterinary Diagnostic Laboratory;collection-date=2023-08-21;country=USA: Utah;gbkey=Src;genome=genomic;isolate=turkey/Utah/2023078696/tendon/2023;isolation-source=tendon;mol_type=genomic RNA;nat-host=turkey;segment=S1
+PV406567.1	Genbank	CDS	1	300	.	+	0	ID=cds-XXQ48878.1;Dbxref=NCBI_GP:XXQ48878.1;Name=XXQ48878.1;gbkey=CDS;product=p10 protein;protein_id=XXQ48878.1
+PV406567.1	Genbank	CDS	272	724	.	+	0	ID=cds-XXQ48879.1;Dbxref=NCBI_GP:XXQ48879.1;Name=XXQ48879.1;gbkey=CDS;product=p17 protein;protein_id=XXQ48879.1
+PV406567.1	Genbank	CDS	609	1563	.	+	0	ID=cds-XXQ48880.1;Dbxref=NCBI_GP:XXQ48880.1;Name=XXQ48880.1;end_range=1563,.;gbkey=CDS;partial=true;product=sigma C protein;protein_id=XXQ48880.1
+

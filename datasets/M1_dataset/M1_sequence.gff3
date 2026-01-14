@@ -1,0 +1,6 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+PV406300.1	Genbank	region	1	2199	.	+	.	ID=PV406300.1:1..2199;Dbxref=taxon:38170;Name=M1;collected-by=Iowa State University Veterinary Diagnostic Laboratory;collection-date=2023-08-21;country=USA: Utah;gbkey=Src;genome=genomic;isolate=turkey/Utah/2023078696/tendon/2023;isolation-source=tendon;mol_type=genomic RNA;nat-host=turkey;segment=M1
+PV406300.1	Genbank	CDS	1	2199	.	+	0	ID=cds-XXQ48449.1;Dbxref=NCBI_GP:XXQ48449.1;Name=XXQ48449.1;gbkey=CDS;product=mu A protein;protein_id=XXQ48449.1
+

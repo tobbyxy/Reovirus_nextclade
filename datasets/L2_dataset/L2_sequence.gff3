@@ -1,0 +1,6 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+PV406122.1	Genbank	region	1	3780	.	+	.	ID=PV406122.1:1..3780;Dbxref=taxon:38170;Name=L2;collected-by=Iowa State University Veterinary Diagnostic Laboratory;collection-date=2023-08-21;country=USA: Utah;gbkey=Src;genome=genomic;isolate=turkey/Utah/2023078696/tendon/2023;isolation-source=tendon;mol_type=genomic RNA;nat-host=turkey;segment=L2
+PV406122.1	Genbank	CDS	1	3780	.	+	0	ID=cds-XXQ48271.1;Dbxref=NCBI_GP:XXQ48271.1;Name=XXQ48271.1;gbkey=CDS;product=lambda B protein;protein_id=XXQ48271.1
+
