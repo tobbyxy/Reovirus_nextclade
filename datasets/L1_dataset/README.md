@@ -20,4 +20,4 @@ nextclade run -D . sequences.fasta
 
 ## Generated
 
-Generated on Thu Jan 15 09:49:27 CST 2026
+Generated on Thu Jan 15 10:41:24 CST 2026

@@ -1,6 +1,6 @@
 ## Unreleased
 
-## [1.0.0] - 2026-01-13
+## [1.0.0] - 2026-01-15
 
 ### Added
 - Initial release of ARV segment S2 dataset

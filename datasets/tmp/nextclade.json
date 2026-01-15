@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/nextstrain/nextclade/refs/heads/release/packages/nextclade-schemas/output-json.schema.json",
   "schemaVersion": "3.0.0",
   "nextcladeAlgoVersion": "3.18.1",
-  "createdAt": "2026-01-14T15:38:09.816270937+00:00",
+  "createdAt": "2026-01-14T16:43:14.125199068+00:00",
   "cladeNodeAttrKeys": [],
   "phenotypeAttrKeys": [],
   "refNodes": {},
